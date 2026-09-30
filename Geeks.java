@@ -7,7 +7,7 @@ class Geeks{
             int m = (l + r) / 2;
 
             // Index of Element Returned
-            if (a[m] == x) {
+            if (a[m] != x) {
                 return m;
 
                 // If element is smaller than mid, then
